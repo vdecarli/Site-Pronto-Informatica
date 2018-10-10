@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pronto Informática</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/Conteudo.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .rodape-lyout-contato {
+            background-color: #7BB4C3;
+            display: flex;
+            flex-direction: row;
+            animation-direction: alternate;
+        }
+
+        .tabela {
+            width: 80%;
+            margin: 0 auto;
+            border: #030457 1px solid;
+
+        }
+        .tabela td {
+            padding: 10px;
+        }
+
+        .tabela th {
+            background-color: rgb(37, 12, 145);
+            color: #ffffff;
+        }
+
+        .tabela td {
+            text-align: center;
+        }
+
+        .tabela td:nth-child(2) {
+            text-align: left;
+        }
+
+        .tabela tr:nth-child(odd) {
+            background-color: lightblue;
+        }
+
+        .tabela tr:hover {
+            background-color: #ade6d0;
+        }
+        .cli{
+            color:white;
+            font-size: 20px;
+            padding: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--cabeçalho do site-->
+    <header class="box-logo">
+        <div class="Logo">
+            <img src="css/imagens/logolaranja.jpg">
+        </div>
+        <div class="lista-info">
+            <ul>
+                <li><a href="sobrenos.html" class="btn-lista-info">Sobre Nós</a></li>
+                <li><a href="notbook.html" class="btn-lista-info">Notebook</a></li>
+                <li><a href="computadores.html" class="btn-lista-info">Computadores</a></li>
+                <li><a href="empressas.html" class="btn-lista-info">Para Empressas</a></li>
+                <li><a href="serviços.html" class="btn-lista-info">Serviços</a></li>
+                <li><a href="sistemas.html" class="btn-lista-info">Gdoor Sistemas</a></li>
+                <li><a href="contato.html" class="btn-lista-info">Contato</a></li>
+                <li><a href="index.html" class="btn-lista-info">Menu</a></li>
+            </ul>
+
+        </div>
+    </header>
+    <div class="rodape-lyout-contato">
+        <div class="representante-vazio"></div>
+        <div>
+            <br>
+            <br>
+            <h2>
+                <br>
+                <br>
+                <p class="cadcli">100% de desconto!</p>
+            </h2>
+            <br>
+            <p class="cli">Marque um atendimento conosco e receba um desconto de 100% na taxa de diagnóstico.</p>
+            <br>
+            <h3 class="cadcli">Agende Já Sua Visita</h3>
+        </div>
+        <br>
+        <br>
+        <form method="post" action="" class="form">
+                <br>
+                <br>
+                <br>
+            <table class="tabela">
+                <tr>
+                    <th><label for="nome">Nome</label></th>
+                    <th><input type="text" id="nome" placeholder="Insira seu Nome completo" class="campo-nome"></th>
+                </tr>
+                <tr>
+                    <td><label for="cpf">CPF</label></td>
+                    <td><input type="number" id="cpf" class="campo-cpf"></td>
+                </tr>
+                <tr>
+                    <td><label for="endereco">Endereço</label></td>
+                    <td><input type="text" id="endereco" class="campo-endereco"></td>
+                </tr>
+                <tr>
+                    <td><label for="telefone">Telefone</label></td>
+                    <td><input type="tel" id="telefone" class="campo-telefone"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="emailid" placeholder="fulano@mail.com" name="email" class="campo-email" /></td>
+                </tr>
+                <tr>
+                    <td><label>Mensagem</label></td>
+                    <td><textarea name="mensagem" rows=5 cols="80"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td rowspan="7"><input type="submit" value="Enviar" class="boton"></td>
+                </tr>
+            </table>
+
+
+        </form>
+
+    </div>
+    </div>
+    </main>
+
+    <!--Rodape-->
+    <div class="rodape">
+        <div class="rodape-lyout">
+
+        </div>
+        <div class="rodape-contato">
+            <div class="rodape-contato-texto">
+                <p>ONDE ESTAMOS</p>
+                <p>Residencial : Barão do Melgaço 1</p>
+                <p>Vilhena-Ro</p>
+            </div>
+            <div class="vazia-rodape-contato"></div>
+            <div class="rodape-contato-texto">
+                <p>CONTATO</p>
+                <img src="css/imagens/baseline-call-24px.svg">
+                <a href="tel:+55-69-98402-49-52">(69) 98402-4952</a><br>
+                <a href="prontoassitencia@gmail.com">prontoassistencia@gmail.com</a><br>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
