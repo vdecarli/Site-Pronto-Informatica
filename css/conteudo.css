@@ -15,6 +15,7 @@
 .box-texto{
     border: 20px;
     font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
 }
 .box-vazio{
     width: 99%; 
